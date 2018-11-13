@@ -59,5 +59,7 @@ html {
 }
 
 @media query {
-  .print-only
+  .print-only {
+    color: #000;
+  }
 }
