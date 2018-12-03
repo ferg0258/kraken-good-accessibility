@@ -58,8 +58,17 @@ html {
   border-radius: 6px 6px 0 0;
 }
 
-@media query {
-  .print-only {
+@media print {
+
+  .chapter-ends {
+    background-color: transparent;
+    border: none;
     color: #000;
   }
+
+  .inset-img {
+    display: none;
+    border-color: #000;
+  }
+
 }
